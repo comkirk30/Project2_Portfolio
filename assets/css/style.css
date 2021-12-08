@@ -13,6 +13,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #323235;
+    position: sticky;
+    top: 0;
 }
 
 .header h1 {
@@ -57,6 +59,7 @@ p {
     background-image: url("https://github.com/comkirk30/Project2_Portfolio/blob/main/02-hero-bg.jpg");
     background-size: cover;
     background-position: center;
+    border-radius: 15px;
 }
 
 .float-left {
