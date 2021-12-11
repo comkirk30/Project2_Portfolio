@@ -61,12 +61,19 @@ p {
 }
 
 .hero {
+    height: 500px;
+    width: 100%;
     background-image: url("../images/02-hero-bg.jpg");
     background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%; 
-    display: flex;
+    background-position: center;
   }
+
+  h1 {
+    text-align: right;
+    color: #eff0f5;
+    font-size: 40px;
+  }
+
 
 .content {
     width: 75%;
